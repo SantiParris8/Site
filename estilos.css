@@ -65,6 +65,29 @@ margin-left: 35%;
 
 }
 
+#engflag {
+  width: 65px;
+  height: 40px;
+}
+
+#espflag {
+  width: 65px;
+  height: 40px;
+  display: none;
+}
+
+#engflag:hover {
+  margin: 1px;
+  width: 63px;
+  height: 38px;
+}
+
+#espflag:hover {
+  margin:1px;
+  width: 63px;
+  height: 38px;
+}
+
 
 .lead {
   width: 70%;
@@ -118,6 +141,18 @@ margin-left: 35%;
 }
 
 .segundo {
+  display: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.segundob {
+  display: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.segundoen {
   display: none;
   text-align: center;
   text-decoration: none;
