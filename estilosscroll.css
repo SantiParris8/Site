@@ -1,0 +1,16 @@
+body {
+    position: relative;
+}
+#section2 {padding-top:50px;height:300px;color: black; background-color: #dcdcdc;}
+#section3 {padding-top:50px;height:300px;color: black; background-color: #b5b5b5;}
+#section44 {padding-top:50px;height:300px;color: black; background-color:#dcdcdc;}
+#section5 {padding-top:50px;height:300px;color: black; background-color: #b5b5b5;}
+
+#space {
+   display: block;
+   margin: 800px 0;
+}
+
+.costado {
+  margin-top: 50px;
+}

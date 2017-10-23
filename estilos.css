@@ -1,0 +1,169 @@
+body {
+  background-image: url(wood.jpg);
+}
+
+.barra {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70px;
+  width: 100%;
+}
+
+.costado {
+margin-left: 35%;
+}
+
+.barra img {
+  margin-top: 5px;
+  width: 65px;
+
+}
+
+.barra a {
+ color: rgba(255, 255, 255, 1);
+ width: 100%;
+ font-family: 'Alegreya Sans SC', sans-serif;
+ font-size: 20px;
+ text-decoration: none;
+ position: relative;
+ padding: 6px;
+}
+
+#noborder {
+  border: none;
+  padding: 6px;
+}
+
+#noborder img:hover {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 3px;
+  border-radius: 70%;
+}
+
+.barra a:hover {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0,8);
+  border-width: 1px;
+  padding: 5px;
+}
+
+.jumbotron {
+  text-align: center;
+  height: 330px;
+
+}
+
+.imagg {
+  width: 180px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+  top: 145px;
+  border-color: black;
+  border-width: 5px;
+  margin-right: 800px;
+
+}
+
+
+.lead {
+  width: 70%;
+  margin-left: 170px;
+}
+
+
+.Gal {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.foto {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 24px;
+  width: 250px;
+}
+
+.fotosmar {
+  margin-left: 7%;
+}
+
+.foto:hover {
+  border: 2px solid black;
+}
+
+.button {
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    color: white;
+}
+
+.display-4 {
+  font-size: 30px;
+}
+
+.segundo {
+  display: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.carru {
+  width: 800px;
+  height: 500px;
+  margin-left: 20%;
+}
+
+.carousel-indicatorss {
+  color: black;
+}
+
+.citas {
+    background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(228,177,38);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.citas h1 {
+    font-size: 3vw;
+    text-shadow: 0 0 3px #000000;
+}
+
+.citas p {
+    padding-left: 200px;
+    font-size: 32px;
+    padding-bottom: 120px;
+}
+
+.footer {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  float: right;
+  position:fixed;
+  bottom:0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  text-align: right;
+  color: white;
+  padding-right: 20px;
+  font-size: 16;
+  height: 30px;
+}
