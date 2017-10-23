@@ -88,6 +88,29 @@ margin-left: 35%;
   height: 38px;
 }
 
+.elpdf
+  {
+      position: absolute;
+      display: inline-block;
+      top: 5px;
+      background: rgba(240,240,240,1.0);
+      border: 1px solid rgba(0,0,0,1.0);
+      text-shadow: none;
+      z-index:99;
+  }
+
+  .pdfmanto {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 5px;
+        float: left;
+        z-index: 98;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+
+
+      }
 
 .lead {
   width: 70%;

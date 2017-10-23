@@ -38,3 +38,7 @@ function idiomaesp() {
   $('.segundoen').css({"display":"none"});
   $('#espflag').css({"display":"none"});
 }
+
+function pdf() {
+  $(".pdfmanto").fadeIn();
+}
