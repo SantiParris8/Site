@@ -1,7 +1,6 @@
 body {
   background-image: url(wood.jpg);
 }
-
 .barra {
   background-color: rgba(0, 0, 0, 0.7);
   height: 70px;
@@ -9,7 +8,9 @@ body {
 }
 
 .costado {
+/*espacio*/
 margin-left: 35%;
+/*espacio*/
 }
 
 .barra img {
@@ -17,14 +18,12 @@ margin-left: 35%;
   width: 65px;
 
 }
-
 .navbar {
   border-radius: 0;
   position: fixed;
   right: 0;
   z-index: 1030;
 }
-
 .barra a {
  color: rgba(255, 255, 255, 1);
  width: 100%;
@@ -34,32 +33,27 @@ margin-left: 35%;
  position: relative;
  padding: 6px;
 }
-
 #noborder {
   border: none;
   padding: 6px;
 }
-
 #noborder img:hover {
   border-style: solid;
   border-color: rgba(255, 255, 255, 0);
   border-width: 3px;
   border-radius: 70%;
 }
-
 .barra a:hover {
   border-style: solid;
   border-color: rgba(255, 255, 255, 0,8);
   border-width: 1px;
   padding: 5px;
 }
-
 .jumbotron {
   text-align: center;
   height: 330px;
 
 }
-
 .imagg {
   width: 180px;
   border-radius: 50%;
@@ -71,30 +65,25 @@ margin-left: 35%;
   margin-right: 800px;
 
 }
-
 #engflag {
   width: 65px;
   height: 40px;
 }
-
 #espflag {
   width: 65px;
   height: 40px;
   display: none;
 }
-
 #engflag:hover {
   margin: 1px;
   width: 63px;
   height: 38px;
 }
-
 #espflag:hover {
   margin:1px;
   width: 63px;
   height: 38px;
 }
-
 .elpdf
   {
       position: absolute;
@@ -118,32 +107,25 @@ margin-left: 35%;
 
 
       }
-
 .lead {
   width: 70%;
   margin-left: 170px;
 }
-
-
 .Gal {
   background-color: rgba(0, 0, 0, 0.4);
 }
-
 .foto {
   margin-top: 10px;
   margin-left: 20px;
   margin-bottom: 24px;
   width: 250px;
 }
-
 .fotosmar {
   margin-left: 7%;
 }
-
 .foto:hover {
   border: 2px solid black;
 }
-
 .button {
     border: none;
     padding: 8px 16px;
@@ -159,45 +141,37 @@ margin-left: 35%;
     color: black;
     border: 2px solid #555555;
 }
-
 .button:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border: 2px solid white;
     color: white;
 }
-
 .display-4 {
   font-size: 30px;
 }
-
 .segundo {
   display: none;
   text-align: center;
   text-decoration: none;
 }
-
 .segundob {
   display: none;
   text-align: center;
   text-decoration: none;
 }
-
 .segundoen {
   display: none;
   text-align: center;
   text-decoration: none;
 }
-
 .carru {
   width: 800px;
   height: 500px;
   margin-left: 20%;
 }
-
 .carousel-indicatorss {
   color: black;
 }
-
 .citas {
     background-color: rgba(0, 0, 0, 0.7);
   color: rgb(228,177,38);
@@ -205,18 +179,15 @@ margin-left: 35%;
   font-family: 'Dancing Script', cursive;
 
 }
-
 .citas h1 {
     font-size: 3vw;
     text-shadow: 0 0 3px #000000;
 }
-
 .citas p {
     padding-left: 200px;
     font-size: 32px;
     padding-bottom: 120px;
 }
-
 .footer {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 20px;
