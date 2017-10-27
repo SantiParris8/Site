@@ -11,6 +11,15 @@ body {
    margin: 800px 0;
 }
 
-.costado {
-  margin-top: 50px;
+.navbar {
+  width: 160px;
+  float: right;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.83);
+  border-right: solid 8.5px rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+}
+
+.nav li {
+  width: 120px;
 }

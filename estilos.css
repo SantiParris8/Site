@@ -18,6 +18,13 @@ margin-left: 35%;
 
 }
 
+.navbar {
+  border-radius: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1030;
+}
+
 .barra a {
  color: rgba(255, 255, 255, 1);
  width: 100%;
