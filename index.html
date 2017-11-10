@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
-
+    
     <title>Santiago Parris - Portafolio</title>
 </head>
 
@@ -20,7 +20,8 @@
         <a id="noborder" href="index.html"><img src="SP.png" alt="Nombre"></a>
         <a href="Document.html">Documentación</a>
         <a href="Contacto.html">Contacto</a>
-
+        <a onclick="noche()" id="noche" > ☽ </a>
+        <a onclick="dia()" id="dia" > ☼ </a>
       </div>
     </nav>
 
@@ -40,13 +41,7 @@
 <h1 class="display-4 segundoen">For more information check my curriculum below.</h1>
 
 <br>
-<a class="button segundob" onclick="pdf()">Curriculum</a>
-
-<div class="pdfmanto">
-<div class="elpdf">
-<embed src="http://gahp.net/wp-content/uploads/2017/09/sample.pdf" width="1000" height="400" type='application/pdf'>
-</div>
-</div>
+<a class="button segundob" href="http://gahp.net/wp-content/uploads/2017/09/sample.pdf">Curriculum</a>
 
         </div>
     </div>
@@ -58,8 +53,10 @@
 
 
 </body>
-<script src="jquery-3.2.1.min.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 <script src="bootstrap.min.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="  crossorigin="anonymous"></script>
+
 <script src="script.js" charset="utf-8"></script>
 
 </html>

@@ -13,6 +13,36 @@ margin-left: 35%;
 /*espacio*/
 }
 
+#msj{
+width: 380px;;
+height: 100px;
+}
+
+.imagenesgal img{
+  width: 300px;
+  height: 300px;
+
+}
+
+.enviado{
+  display: none;
+}
+
+.cuerpocont {
+  width: 900px;
+text-align: center;
+margin-left: 20%;
+margin-top: 20px;
+background-color: white;
+
+}
+
+
+.texto {
+  margin-bottom: 20px;
+
+}
+
 .barra img {
   margin-top: 5px;
   width: 65px;
@@ -68,11 +98,13 @@ margin-left: 35%;
 #engflag {
   width: 65px;
   height: 40px;
+  cursor:pointer;
 }
 #espflag {
   width: 65px;
   height: 40px;
   display: none;
+  cursor:pointer;
 }
 #engflag:hover {
   margin: 1px;
@@ -202,4 +234,23 @@ margin-left: 35%;
   padding-right: 20px;
   font-size: 16;
   height: 30px;
+}
+
+.jumbotron {
+  margin-top: 30px;
+}
+
+a.button.segundob {
+  color: black;
+}
+
+#noche {
+  color: white;
+  cursor:pointer;
+}
+
+#dia {
+  color: white;
+  display: none;
+  cursor:pointer;
 }

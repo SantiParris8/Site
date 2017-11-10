@@ -21,21 +21,30 @@
     </nav>
 
     <div class="cuerpocont">
-      <h1>Contacto</h1>
-<br>
-      <div class="formcont">
-        <h3>Nombre</h3>
-        <input type="nombre" name="nombre" placeholder="Nombre">
-        <br>
-        <br>
-        <h3>Mail</h3>
-        <input type="msg" name="nombre" placeholder="E-mail">
-        <br>
-        <br>
-        <h3>Mensage</h3>
-        <input type="msg" name="nombre" placeholder="Ingrese aqui su mensage.">
 
+<p class="enviado">Tu mensaje se ah enviado con exito.</p>
+      <div class="formcont">
+
+        <h1>Contacto</h1>
+        <br>
+        <h3>Nombre</h3>
+        <input class="texto" type="nombre" name="nombre" placeholder="Nombre">
+
+        <h3>Mail</h3>
+        <input class="texto" type="msg" name="nombre" placeholder="E-mail">
+
+        <h3>Mensaje</h3>
+        <textarea class="texto" id="msj" type="msg" name="nombre" placeholder="Ingrese aqui su mensaje."></textarea>
+<br>
+        <input class="texto" onclick="enviado()" type="submit" name="Enviar" value="Enviar mensaje.">
       </div>
+    </div>
+    <hr>
+    <div class="imagenesgal">
+      <img src="" alt="Facebook">
+      <img src="" alt="Twitter">
+      <img src="" alt="Mail">
+      <img src="" alt="Skype">
 
     </div>
 

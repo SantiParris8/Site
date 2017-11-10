@@ -42,3 +42,25 @@ function idiomaesp() {
 function pdf() {
   $(".pdfmanto").fadeIn();
 }
+
+function noche() {
+  $(".jumbotron").animate({backgroundColor:'rgba(0,0,0,0.7)'});
+  $("body").animate({color:'white;'});
+  $("#noche").css({"display":"none"});
+  $('#dia').fadeIn();
+}
+
+function dia() {
+  $(".jumbotron").animate({backgroundColor:'rgb(255,255,255)'});
+  $("#dia").css({"display":"none"});
+    $("body").animate({color:'black'});
+  $('#noche').fadeIn();
+}
+
+
+function enviado() {
+  $(".formcont").fadeOut();
+  $(".enviado").fadeIn();
+  cursor:pointer;
+
+}
