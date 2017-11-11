@@ -269,3 +269,75 @@ a.button.segundob {
   display: none;
   cursor:pointer;
 }
+
+.Rita {display: none;}
+.Seba {display:none;}
+
+.pcon img{
+  width: 240px;
+  height: 190px;
+}
+
+.cajacita img{
+  width: 240px;
+  height: 190px;
+}
+
+.pcon{
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 230px;
+  border: solid 2px black;
+  width: 244px;
+  margin: 30px;
+  position:absolute;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.cajacita{
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  height: 230px;
+  border: solid 2px black;
+  width: 244px;
+  margin: 30px;
+  position:absolute;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.rita {
+  margin-left: 10%
+}
+
+.seba {
+  margin-left: 30%
+}
+
+.santi {
+  margin-left: 50%
+}
+
+.otro {
+  margin-left: 70%
+}
+
+
+
+.Entrevistas {
+  margin-left: 55%;
+}
+
+.EntrevistaLaboral {
+  margin-left: 30%;
+}
+
+.pcon p{
+  text-align: center;
+  font-size: 18px;
+  font-family: tahoma;
+}
+
+.BotonesEnt div:hover {
+  border: solid 2px white;
+}

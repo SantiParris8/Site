@@ -1,55 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Portafolio - Santiago Parris</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="barra">
-      <div class="costado">
+</head>
 
-        <a href="Entrevista.html">Entrevista</a>
-        <a href="Galeria.html">Galería</a>
-        <a id="noborder" href="index.html"><img src="SP.png" alt="Nombre"></a>
-        <a href="Document.html">Documentación</a>
-        <a href="Contacto.html">Contacto</a>
-      </div>
+<body>
+    <nav class="barra">
+        <div class="costado">
+
+            <a href="Entrevista.html">Entrevista</a>
+            <a href="Galeria.html">Galería</a>
+            <a id="noborder" href="index.html"><img src="SP.png" alt="Nombre"></a>
+            <a href="Document.html">Documentación</a>
+            <a href="Contacto.html">Contacto</a>
+        </div>
     </nav>
 
-<div class="rita">
+
+  <div onclick="Citas()" class="Entrevistas pcon">
+    <img src="https://images.pexels.com/photos/39343/microphone-mixer-cable-microphone-cable-39343.jpeg?h=350&auto=compress&cs=tinysrgb" alt="">
+    <p>Citas de entrevistas.</p>
+  </div>
+
+  <div onclick="Consejos()" class="EntrevistaLaboral pcon">
+    <img src="https://media1.s-nbcnews.com/i/newscms/2016_13/1028606/job-interview-panel-tease-today-160328_85ede3fe3cd79d1b3081227a1dc682db.jpg" alt="Entrevista Laboral">
+    <p>Consejos entrevista laboral.</p>
+  </div>
+
+<div class="cajacaja">
+
+  <div onclick="mostrarrita()" class="cajacita rita">
+    <img src="https://cdn3-3.cdn.schoology.com/system/files/imagecache/profile_reg/pictures/picture-b9353511e6b266d024e9df04a33c956f_5924b986b5cb7.jpg?1495579014" alt="">
+    <p>Citas Rita Marquisio.</p>
+  </div>
+
+  <div onclick="mostrarseba()" class="cajacita seba">
+    <img src="http://www.scaggiano.com.uy/img/about-me-xl.jpg" alt="">
+    <p>Citas Sebastián Caggiano.</p>
+  </div>
+
+  <div onclick="mostrarrita()" class="cajacita santi">
+    <img src="http://fansports.com.mx/wp-content/uploads/2016/10/Santiago-Ferna%CC%81ndez.jpg" alt="">
+    <p>Citas Santiago.</p>
+  </div>
+
+  <div onclick="mostrarrita()" class="cajacita otro">
+    <img src="https://media.istockphoto.com/photos/woman-compares-group-of-people-on-hands-and-one-person-picture-id475172816" alt="">
+    <p>Citas de otro.</p>
+  </div>
 
 </div>
-    <div class="citas">
-      <div id="cita1">
-      <h1>"Las competencias más importantes son las blandas, </h1>
-        <h1>las personales."</h1>
-      <p>-Rita Marquicio</p>
-      </div>
-      <div id="cita2">
-      <h1>"Hay que demostrár interés para obtener mejores </h1><h1> proyectos."</h1>
-      <p>-Sebastián Caggiano</p>
-      </div>
-      <div id="cita3">
-      <h1>"Para todo trabajo es necesario </h1><h1> saber trabajar en equipo."</h1>
-      <p>-Rita Marquicio</p>
-      </div>
-      <div id="cita4">
-      <h1>"No van a sobrevivir sin saber </h1><h1> inglés"</h1>
-      <p>-Sebastián Caggiano</p>
-      </div>
 
+
+
+    <div class="Rita citas">
+        <div id="cita1">
+            <h1>"Las competencias más importantes son las blandas, </h1>
+            <h1>las personales."</h1>
+            <p>-Rita Marquicio</p>
+        </div>
+        <div id="cita3">
+            <h1>"Para todo trabajo es necesario </h1>
+            <h1> saber trabajar en equipo."</h1>
+            <p>-Rita Marquicio</p>
+        </div>
     </div>
+
+    <div class="Seba citas">
+        <div id="cita2">
+            <h1>"Hay que demostrár interés para obtener mejores </h1>
+            <h1> proyectos."</h1>
+            <p>-Sebastián Caggiano</p>
+        </div>
+        <div id="cita4">
+            <h1>"No van a sobrevivir sin saber </h1>
+            <h1> inglés"</h1>
+            <p>-Sebastián Caggiano</p>
+        </div>
+    </div>
+
     <div class="footer">
-      <p>Copyright © 2017 Santiago Parris designs</p>
+        <p>Copyright © 2017 Santiago Parris designs</p>
 
     </div>
-  </body>
-  <script src="jquery-3.2.1.min.js" charset="utf-8"></script>
-  <script src="bootstrap.min.js" charset="utf-8"></script>
-  <script src="script.js" charset="utf-8"></script>
+</body>
+<script src="jquery-3.2.1.min.js" charset="utf-8"></script>
+<script src="bootstrap.min.js" charset="utf-8"></script>
+<script src="script.js" charset="utf-8"></script>
 
 </html>

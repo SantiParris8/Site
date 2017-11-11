@@ -11,9 +11,7 @@ function masinfo() {
 
 $('document').ready(function(){
 
-    $("#cita1").animate({marginRight: '25%'},1000);
     $("#cita2").animate({marginLeft: '30%'},1200);
-    $("#cita3").animate({marginLeft: '10%'},1400);
     $("#cita4").animate({marginLeft: '30%'},1200);
 
 });
@@ -62,5 +60,36 @@ function enviado() {
   $(".formcont").fadeOut();
   $(".enviado").fadeIn();
   cursor:pointer;
+
+}
+
+
+function Citas() {
+$(".cajacita").css({"display":"block"})
+$(".pcon").css({"display":"none"})
+
+}
+
+function mostrarrita() {
+  $(".cajacita").css({"display":"none"})
+  $(".rita").css({"display":"block"})
+  $(".Rita").css({"display":"block"})
+  $("#cita1").animate({marginRight: '25%'},1000);
+  $("#cita3").animate({marginLeft: '10%'},1400);
+  $(".rita").animate({marginTop: '10%'},1400);
+
+}
+
+function mostrarseba() {
+  $(".cajacita").css({"display":"none"})
+  $(".seba").css({"display":"block"})
+  $(".Seba").css({"display":"block"})
+  $("#cita2").animate({marginRight: '25%'},1000);
+  $("#cita4").animate({marginLeft: '10%'},1400);
+  $(".seba").animate({marginTop: '10%'},1400);
+  $(".seba").animate({marginLeft: '30%'},1400);
+  $(".seba").animate({marginTop: '20%'},1400);
+
+
 
 }
