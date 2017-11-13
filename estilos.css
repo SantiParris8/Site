@@ -1,5 +1,6 @@
 body {
-  background-image: url(wood.jpg);
+  background-image: url(https://i.ytimg.com/vi/R3NkO-GdLBo/maxresdefault.jpg);
+
 }
 .barra {
   background-color: rgba(0, 0, 0, 0.7);
@@ -25,13 +26,13 @@ height: 100px;
     margin-bottom: 50px;
 }
 #linkedin{
-  opacity: 0.9;
+  opacity: 0.85;
   width: 85px;
   height: 85px;
 }
 
 #skype{
-  opacity: 0.5;
+  opacity: 0.85;
 }
 .enviado{
   display: none;
@@ -40,17 +41,13 @@ height: 100px;
 .cuerpocont {
   width: 900px;
 text-align: center;
-margin-left: 20%;
+margin-left: 25%;
 margin-top: 20px;
-background-color: rgba(255, 255, 255, 0.9);
-
-
-
+background-color: rgba(173,216,230, 0.6);
+border: solid 6px rgba(255, 255, 255, 0.2);
+border-radius: 5%;
 }
 
-.formcont {
-background-color: rg
-}
 
 
 .texto {
@@ -160,6 +157,10 @@ background-color: rg
 }
 .Gal {
   background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  margin-left: 15%;
+  width: 75%;
+  height: 100%;
 }
 .foto {
   margin-top: 10px;
@@ -224,6 +225,9 @@ background-color: rg
   color: rgb(228,177,38);
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 
 }
 .citas h1 {
@@ -272,6 +276,8 @@ a.button.segundob {
 
 .Rita {display: none;}
 .Seba {display:none;}
+.Santi {display: none;}
+.Fabi {display: none;}
 
 .pcon img{
   width: 240px;
@@ -308,6 +314,7 @@ a.button.segundob {
 
 .rita {
   margin-left: 10%
+
 }
 
 .seba {
@@ -318,7 +325,7 @@ a.button.segundob {
   margin-left: 50%
 }
 
-.otro {
+.fabi {
   margin-left: 70%
 }
 

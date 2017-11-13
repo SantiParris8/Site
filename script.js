@@ -1,7 +1,7 @@
 function masinfo() {
   $(".jumbotron").animate({height: '500px'});
   $('.button').hide();
-  $(".lead").text("Soy de Montevideo Uruguay, tengo 16 años, disfruto el mundo de la computación y la tecnología. En mi tiempo libre me gusta intentar diseñar sitios web y aprender edición digital junto con programación. Mi programa favorito para editar imagenes es Photoshop y para crear contenido suelo utilizar Illustrator. Tengo un dominio del ingles avanzado y deberia dar el examen de cambridge PROF este año (2017).");
+  $(".lead").text("Soy de Montevideo Uruguay, tengo 16 años, disfruto el mundo de la computación y la tecnología. En mi tiempo libre me gusta intentar diseñar sitios web y aprender edición digital junto con programación. Mi programa favorito para editar imágenes es Photoshop y para crear contenido suelo utilizar Illustrator. Tengo un dominio del inglés avanzado y debería dar el examen de cambridge PROF este año (2017).");
   $('.segundo').fadeIn();
   $('.segundob').fadeIn();
 
@@ -9,12 +9,7 @@ function masinfo() {
 
 };
 
-$('document').ready(function(){
 
-    $("#cita2").animate({marginLeft: '30%'},1200);
-    $("#cita4").animate({marginLeft: '30%'},1200);
-
-});
 
 function idioma() {
   $(".jumbotron").animate({height: '500px'});
@@ -72,24 +67,39 @@ $(".pcon").css({"display":"none"})
 
 function mostrarrita() {
   $(".cajacita").css({"display":"none"})
-  $(".rita").css({"display":"block"})
+  $(".rita").fadeOut();
   $(".Rita").css({"display":"block"})
-  $("#cita1").animate({marginRight: '25%'},1000);
-  $("#cita3").animate({marginLeft: '10%'},1400);
-  $(".rita").animate({marginTop: '10%'},1400);
+  $(".cita1").animate({marginRight: '25%'},1000);
+  $(".cita3").animate({marginLeft: '10%'},1400);
 
 }
 
 function mostrarseba() {
   $(".cajacita").css({"display":"none"})
-  $(".seba").css({"display":"block"})
+  $(".seba").fadeOut();
   $(".Seba").css({"display":"block"})
-  $("#cita2").animate({marginRight: '25%'},1000);
-  $("#cita4").animate({marginLeft: '10%'},1400);
-  $(".seba").animate({marginTop: '10%'},1400);
-  $(".seba").animate({marginLeft: '30%'},1400);
-  $(".seba").animate({marginTop: '20%'},1400);
+  $(".cita2").animate({marginRight: '25%'},1000);
+  $(".cita4").animate({marginLeft: '10%'},1400);
 
+
+}
+
+function mostrarsanti() {
+  $(".cajacita").css({"display":"none"})
+  $(".santi").fadeOut();
+  $(".Santi").css({"display":"block"})
+  $(".cita2").animate({marginRight: '25%'},1000);
+  $(".cita4").animate({marginLeft: '10%'},1400);
+
+
+}
+
+function mostrarfabi() {
+  $(".cajacita").css({"display":"none"})
+  $(".fabi").fadeOut();
+  $(".Fabi").css({"display":"block"})
+  $(".cita1").animate({marginRight: '25%'},1000);
+  $(".cita3").animate({marginLeft: '10%'},1400);
 
 
 }
