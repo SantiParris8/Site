@@ -100,6 +100,13 @@ function mostrarfabi() {
   $(".Fabi").css({"display":"block"})
   $(".cita1").animate({marginRight: '25%'},1000);
   $(".cita3").animate({marginLeft: '10%'},1400);
+}
+function Consejos() {
+  $(".consejos").fadeIn();
+  $(".pcon").fadeOut();
+}
 
-
+function mostrartuto(a) {
+var a = "#" + a
+  $(a).fadeIn();
 }

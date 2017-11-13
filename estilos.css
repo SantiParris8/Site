@@ -320,31 +320,62 @@ a.button.segundob {
 .seba {
   margin-left: 30%
 }
-
 .santi {
   margin-left: 50%
 }
-
 .fabi {
   margin-left: 70%
 }
-
-
-
 .Entrevistas {
   margin-left: 55%;
 }
-
 .EntrevistaLaboral {
   margin-left: 30%;
 }
-
 .pcon p{
   text-align: center;
   font-size: 18px;
   font-family: tahoma;
 }
-
 .BotonesEnt div:hover {
   border: solid 2px white;
+}
+
+
+.cajafotos {
+  width: 40%;
+  margin-left: 30%;
+  position: absolute;
+}
+
+.cajafotos img {
+  margin-top: 40px;
+  width: 100%;
+  border: solid 2px black;
+  opacity: 0.73;
+  display: none;
+}
+.consejos {
+  background-color: white;
+  position: fixed;
+  float: left;
+  width: 15%;
+  margin-left: 75%;
+  border: solid 2px black;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+.consejos h1{
+font-size: 20px;
+}
+.botones li {
+  cursor: pointer;
+  text-align: center;
+  list-style-type: none;
+}
+.botones li:hover {
+background-color: grey;
+padding-right: 35px;
+font-weight: bold;
 }
