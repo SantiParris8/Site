@@ -158,7 +158,11 @@ border-radius: 5%;
 .Gal {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
+<<<<<<< HEAD
   margin-left: 2.%;
+=======
+  margin-left: 2.5%;
+>>>>>>> b3fc4b5581e4ba3144cffd0e4e199d75a3f9b08e
   width: 95%;
   height: 100%;
 }
