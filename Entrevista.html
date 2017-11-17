@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
 </head>
 
 <body>
@@ -23,14 +24,14 @@
     </nav>
 
 
-  <div onclick="Citas()" class="Entrevistas pcon">
+  <div onclick="Citas()" onmouseover="Effecto(1)" onmouseout="EffectoOut(1)" class="Entrevistas pcon">
+        <p id="p1">Citas de entrevistas.</p>
     <img src="https://images.pexels.com/photos/39343/microphone-mixer-cable-microphone-cable-39343.jpeg?h=350&auto=compress&cs=tinysrgb" alt="">
-    <p>Citas de entrevistas.</p>
   </div>
 
-  <div onclick="Consejos()" class="EntrevistaLaboral pcon">
+  <div onclick="Consejos()" onmouseover="Effecto(2)" onmouseout="EffectoOut(2)"  class="EntrevistaLaboral pcon">
+    <p id="p2">Consejos entrevista laboral.</p>
     <img src="https://media1.s-nbcnews.com/i/newscms/2016_13/1028606/job-interview-panel-tease-today-160328_85ede3fe3cd79d1b3081227a1dc682db.jpg" alt="Entrevista Laboral">
-    <p>Consejos entrevista laboral.</p>
   </div>
 
 <div class="cajacaja">
@@ -41,7 +42,7 @@
   </div>
 
   <div onclick="mostrarseba()" class="cajacita seba">
-    <img src="http://www.scaggiano.com.uy/img/about-me-xl.jpg" alt="">
+    <img src="sebapas.png" alt="">
     <p>Citas Sebastián Caggiano.</p>
   </div>
 
@@ -114,8 +115,8 @@
       <img id="5" src="tuto5.png" alt="">
       <img id="6" src="tuto6.png" alt="">
       <img id="7" src="tuto7.png" alt="">
-
     </div>
+
   <div class="consejos">
   <h1>Cómo analizar una oferta de trabajo.</h1>
 <div class="botones">

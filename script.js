@@ -106,7 +106,20 @@ function Consejos() {
   $(".pcon").fadeOut();
 }
 
-function mostrartuto(a) {
-var a = "#" + a
-  $(a).fadeIn();
+function mostrartuto(b) {
+var b = "#" + b
+  $(b).fadeIn();
+}
+
+function Effecto(a) {
+  var a = "#p" + a
+    $(a).animate({fontSize: '22px'}, { duration: 500, queue: false });
+    $(a).fadeIn({duration: 900});
+}
+
+function EffectoOut(a) {
+  var a = "#p" + a
+    $(a).animate({fontSize: '6px'}, { duration: 500, queue: false });
+    $(a).fadeOut({duration: 900});
+
 }
