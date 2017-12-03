@@ -218,6 +218,15 @@ border-radius: 5%;
   height: 500px;
   margin-left: 20%;
 }
+
+#especial {
+  width: 700px;
+  height: 500px;
+  margin-left: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .carousel-indicatorss {
   color: black;
 }
